@@ -636,7 +636,9 @@ document.querySelector("form").addEventListener("submit", async (e) => {
   });
 
   const result = await res.json();
-  alert(result.message);
+  alert(result.message || "Message Sent");
+  // clear form after submitting
+  document.querySelector("form").reset();
 });
 </script>
     </body>
