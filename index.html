@@ -615,6 +615,30 @@
       </footer>
       <!-- qr generator -->
       <script src="main.js"></script>
+    <script>
+document.querySelector("form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const data = {
+    name: document.getElementById("username").value,
+    phone: document.getElementById("userphone").value,
+    service: document.getElementById("choose-service").value,
+    location: document.getElementById("location").value,
+    message: document.getElementById("message").value
+  };
+
+  const res = await fetch("/api/send", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(data)
+  });
+
+  const result = await res.json();
+  alert(result.message);
+});
+</script>
     </body>
 
   </html>
