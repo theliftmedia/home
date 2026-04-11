@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lift Media</title>
+
+    <meta name="title"
+      content="The Lift Media | Digital Marketing Agency for Growth & ROI">
+    <meta name="description"
+      content="The Lift Media helps businesses grow with result-driven digital marketing. Get more leads, boost your brand, and scale with ROI-focused strategies. Start your 7-day free trial today.">
+    <meta name="keywords"
+      content="digital marketing agency, social media marketing, SEO services, online marketing, lead generation, branding, ROI marketing, The Lift Media">
+    <meta name="author" content="The Lift Media">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theliftmedia.vercel.app/">
+    <meta property="og:title"
+      content="The Lift Media | Grow Your Business with Smart Marketing">
+    <meta property="og:description"
+      content="We don’t just market—we deliver results. Grow your brand, get leads, and scale your business with The Lift Media. Try our 7-day free trial.">
+    <meta property="og:image"
+      content="https://theliftmedia.vercel.app/tlm-bg-white.jpg">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="tlm-small.png" type="image/x-icon">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+  </style>
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav id="navbar">
+      <!-- <a class="nav-logo" href="#home"><img src="tlm-s@3x.png" style="display: inline; height: 50px;" alt="The Lift Media Logo"></a> -->
+      <a class="nav-logo" href="#home"><img src="name-bg.png"
+          style="height:30px;" alt="The Lift Media Logo"></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#subscriptions">Subscriptions</a></li>
+        <li><a href="#about">Why Us</a></li>
+        <li><a href="#team">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://wa.me/917050721366" class="nav-cta"
+            target="_blank">Chat With Us</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" onclick="closeMobile()">Home</a>
+      <a href="#services" onclick="closeMobile()">Services</a>
+      <a href="#subscriptions" onclick="closeMobile()">Subscriptions</a>
+      <a href="#about" onclick="closeMobile()">Why Us</a>
+      <a href="#team">About</a>
+      <a href="#contact" onclick="closeMobile()">Contact</a>
+      <a href="https://wa.me/917050721366" class="nav-cta" target="_blank">Chat
+        With Us →</a>
+    </div>
+
+    <!-- MARQUEE BANNER -->
+    <div class="banner">
+      <div class="banner-track" id="marqueeTrack">
+        <span>Understand User Flow</span><span class="banner-dot"></span>
+        <span>Increase Conversions</span><span class="banner-dot"></span>
+        <span>Grow Your Brand Online</span><span class="banner-dot"></span>
+        <span>Data-Driven Digital Marketing</span><span
+          class="banner-dot"></span>
+        <span>Turn Visitors Into Customers</span><span
+          class="banner-dot"></span>
+        <span>Understand User Flow</span><span class="banner-dot"></span>
+        <span>Increase Conversions</span><span class="banner-dot"></span>
+        <span>Grow Your Brand Online</span><span class="banner-dot"></span>
+        <span>Data-Driven Digital Marketing</span><span
+          class="banner-dot"></span>
+        <span>Turn Visitors Into Customers</span><span
+          class="banner-dot"></span>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <span class="hero-tag">Digital Marketing Agency</span>
+          <h1>We Turn Your <br><em>Digital Presence</em> <br>Into a Growth
+            Engine.</h1>
+          <p>From strategy to execution — we map your user journey, eliminate
+            friction, and scale what works. Real
+            results, measurable growth.</p>
+          <div class="hero-btns">
+            <a href="#services" class="btn-primary">Explore Services</a>
+            <a href="#contact" class="btn-secondary">Get Trial →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT WE OFFER -->
+    <section id="services">
+      <div class="container">
+        <div class="offer-header">
+          <span class="section-tag">What We Offer</span>
+          <h2 class="section-title">Full-Spectrum Digital<br>Marketing
+            Solutions</h2>
+          <p class="section-sub">From search to social, content to conversions —
+            our services are built to deliver
+            measurable growth at every stage of your funnel.</p>
+        </div>
+        <div class="services-grid">
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img class="service-img" src="images/seo.webp"
+                alt="SEO">
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-body">
+              <div class="service-icon">🔍</div>
+              <h3>Search Engine Optimization</h3>
+              <p>Dominate Google rankings with our data-backed SEO strategies —
+                on-page, off-page, and technical. We make
+                sure your audience finds you first.</p>
+              <span class="service-tag">SEO · Rankings · Traffic</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img class="service-img" src="images/smm.webp"
+                alt="Social Media">
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-body">
+              <div class="service-icon">📱</div>
+              <h3>Social Media Marketing</h3>
+              <p>Build communities, drive engagement, and convert followers into
+                loyal customers across Instagram,
+                Facebook, YouTube, and beyond.</p>
+              <span class="service-tag">Instagram · Facebook · YouTube</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img class="service-img" src="images/pa.webp"
+                alt="Paid Ads">
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-body">
+              <div class="service-icon">🎯</div>
+              <h3>Paid Advertising</h3>
+              <p>Hyper-targeted Google Ads, Meta Ads, and YouTube campaigns that
+                maximize every rupee of your ad budget
+                for immediate, scalable results.</p>
+              <span class="service-tag">Google Ads · Meta Ads</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img class="service-img" src="images/cc.webp"
+                alt="Content Marketing">
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-body">
+              <div class="service-icon">✍️</div>
+              <h3>Content Creation</h3>
+              <p>Strategic content that educates, entertains, and converts —
+                blogs, videos, reels, infographics and more
+                crafted for your exact audience.</p>
+              <span class="service-tag">Blogs · Reels · Copywriting</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img class="service-img" src="images/aco.webp"
+                alt="Analytics">
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-body">
+              <div class="service-icon">📊</div>
+              <h3>Analytics & Conversion Optimization</h3>
+              <p>We map your complete user journey, identify drop-off points,
+                and A/B test to boost conversions — turning
+                more visitors into paying customers.</p>
+              <span class="service-tag">Analytics</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-img-wrap">
+              <img class="service-img" src="images/ewm.webp"
+                alt="Email Marketing">
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-body">
+              <div class="service-icon">📧</div>
+              <h3>Email & WhatsApp Marketing</h3>
+              <p>Automated campaigns that nurture leads, retain customers, and
+                drive repeat sales — delivered directly
+                where your audience is most active.</p>
+              <span class="service-tag">Email · WhatsApp</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section id="about">
+      <div class="container">
+        <span class="section-tag">Why Choose Us</span>
+        <div class="why-grid">
+          <div>
+            <h2 class="section-title">We Don't Just Market.<br>We Engineer
+              Growth.</h2>
+            <p class="section-sub">Every strategy we build is rooted in data,
+              designed around your customers, and built to
+              scale. Here's what sets us apart.</p>
+            <div class="why-features">
+              <div class="why-item">
+                <div class="why-icon">🧠</div>
+                <div>
+                  <h4>Strategy First, Always</h4>
+                  <p>We start with deep research into your audience and
+                    competitors — then build a roadmap
+                    engineered for measurable outcomes.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-icon">📈</div>
+                <div>
+                  <h4>ROI-Obsessed Execution</h4>
+                  <p>Every campaign is tracked, tested, and optimized. We don't
+                    guess — we iterate based on real
+                    performance data until results improve.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-icon">🤝</div>
+                <div>
+                  <h4>Transparent Partnership</h4>
+                  <p>Monthly reports, open communication, and no hidden fees.
+                    You're always in the loop on what we're
+                    doing
+                    and why it's working.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-icon">⚡</div>
+                <div>
+                  <h4>Agile & Fast-Moving Team</h4>
+                  <p>Markets shift fast. Our team adapts quickly, pivoting
+                    strategy and creatives without losing momentum
+                    on your growth goals.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBSCRIPTIONS -->
+    <section id="subscriptions">
+      <div class="container">
+        <div class="offer-header">
+          <span class="section-tag">Subscriptions</span>
+          <h2 class="section-title">Transparent Plans, Real Results</h2>
+          <p class="section-sub">No lock-ins, no surprises. Pick a plan that
+            fits your growth stage and scale up anytime.
+          </p>
+        </div>
+        <div class="plans-grid">
+
+          <div class="plan-card">
+            <div class="plan-name">Starter</div>
+            <div class="plan-price">₹15,000</div>
+            <div class="plan-period">per month</div>
+            <ul class="plan-features">
+              <li>Basic SEO Strategy</li>
+              <li>2 Campaigns &sol; Advertisement 7 days</li>
+              <li>10 Aesthetic Posters</li>
+              <li>4 Reels &amp; 2 Long Videos</li>
+              <li>1 Sales Report</li>
+              <li>Contact Leads</li>
+            </ul>
+            <a
+              href="https://wa.me/917050721366?text=Hi!%20I'm%20interested%20in%20the%20Starter%20plan."
+              class="plan-btn"
+              target="_blank">Continue</a>
+          </div>
+
+          <div class="plan-card featured">
+            <div class="plan-badge">Most Popular</div>
+            <div class="plan-name">Growth</div>
+            <div class="plan-price">₹20,000</div>
+            <div class="plan-period">per month</div>
+            <ul class="plan-features">
+              <li>Standard SEO Strategy</li>
+              <li>5 Campaigns &sol; Advertisement 7 days</li>
+              <li>15 Aesthetic Posters</li>
+              <li>8 Reels &amp; 4 Long Videos</li>
+              <li>4 Sales Report</li>
+              <li>Contact Leads</li>
+              <li>Data Visualization</li>
+              <li>Content Planning</li>
+            </ul>
+            <a
+              href="https://wa.me/917050721366?text=Hi!%20I'm%20interested%20in%20the%20Growth%20plan."
+              class="plan-btn"
+              target="_blank">Continue</a>
+          </div>
+
+          <div class="plan-card">
+            <div class="plan-name">Scale</div>
+            <div class="plan-price">₹25,000</div>
+            <div class="plan-period">per month</div>
+            <ul class="plan-features">
+              <li>Advanced SEO Strategy</li>
+              <li>8 Campaigns &sol; Advertisement 7 days</li>
+              <li>20 Aesthetic Posters</li>
+              <li>15 Reels &amp; 10 Long Videos</li>
+              <li>10 Sales Report</li>
+              <li>Contact Leads</li>
+              <li>Data Visualization</li>
+              <li>Content Planning</li>
+              <li>Ad-HOC Consultancy</li>
+            </ul>
+            <a
+              href="https://wa.me/917050721366?text=Hi!%20I'm%20interested%20in%20the%20Scale%20plan."
+              class="plan-btn"
+              target="_blank">Continue</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM / FOUNDERS -->
+    <section id="team">
+      <div class="container">
+        <span class="section-tag">Our Team</span>
+        <h2 class="section-title">The People Behind the Growth</h2>
+        <p class="section-sub">A team of passionate strategists, creatives, and
+          data nerds who live and breathe digital
+          marketing.</p>
+        <div class="team-grid">
+
+          <div class="team-card">
+            <div class="team-img-wrap">
+              <img src="images/abhi.jpeg" alt="Founder 1">
+            </div>
+            <div class="team-body">
+              <div class="team-name">Abhi Raj</div>
+              <div class="team-position">Owner</div>
+              <p class="team-bio">Specialized in cinematic visuals, social media
+                content, and marketing videos that connect with audiences.</p>
+              <br>
+              <br>
+              <p class="team-bio"><b>6+ years experience</b></p>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-img-wrap">
+              <img src="images/neel.webp" alt="Founder 2">
+            </div>
+            <div class="team-body">
+              <div class="team-name">Maddie</div>
+              <div class="team-position">Graphic Designer</div>
+              <p class="team-bio">I create stunning visuals, build functional
+                websites, and manage social media that engages and grows
+                audiences.</p>
+              <br>
+              <p class="team-bio"><b>2+ years experience</b></p>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-img-wrap">
+              <img src="images/ayush.webp" alt="Founder 3">
+            </div>
+            <div class="team-body">
+              <div class="team-name">Ayush</div>
+              <div class="team-position">Editor</div>
+              <p class="team-bio">My focus is not just on editing, but on
+                helping brands communicate their message effectively and grow
+                their online presence.</p>
+              <br>
+              <p class="team-bio"><b>2+ years experience</b></p>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-img-wrap">
+              <img src="images/sonu.webp" alt="Founder 4">
+            </div>
+            <div class="team-body">
+              <div class="team-name">Sonu</div>
+              <div class="team-position">Editor</div>
+              <p class="team-bio">Experienced in creating engaging videos that
+                boost brand presence and audience engagement.</p>
+              <br>
+              <p class="team-bio"><b>2+ years experience</b></p>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-img-wrap">
+              <img src="images/dhruv.webp" alt="Founder 5">
+            </div>
+            <div class="team-body">
+              <div class="team-name">Dhruv</div>
+              <div class="team-position">Marketing Executive</div>
+              <p class="team-bio">Focus on building relationships and bringing
+                clients directly to the business, ensuring measurable results
+                and growth.</p>
+              <p class="team-bio"><b>3+ years experience</b></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <span class="section-tag">Contact Us</span>
+        <h2 class="section-title">Let's Build Something Great</h2>
+        <p class="section-sub">Reach out to discuss your brand, get a free
+          meeting, or just say hello. <br>We respond
+          fast.</p>
+        <div class="contact-grid">
+          <div>
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">☎️</div>
+                <div>
+                  <h4>Phone</h4>
+                  <a href="tel:+917050721366">+91 70507 21366</a> &sol; <a
+                    href="tel:+919905454906">+91 99054 54906</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div>
+                  <h4>Email</h4>
+                  <a
+                    href="mailto:theliftmedia26@gmail.com">theliftmedia26@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <h4>Location</h4>
+                  <p>DVC Chowk, Gola, Ramgarh, Jharkhand, India — 829110</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🕐</div>
+                <div>
+                  <h4>Working Hours</h4>
+                  <p>Mon – Sat: 10:00 AM – 6:00 PM IST</p>
+                </div>
+              </div>
+            </div>
+            <div class="map-embed">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3657.9307777681142!2d85.72232699999999!3d23.534991999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDMyJzA2LjAiTiA4NcKwNDMnMjAuNCJF!5e0!3m2!1sen!2sin!4v1774732444058!5m2!1sen!2sin"
+                allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+          <div class="messagge-box">
+            <!-- <?php if(isset($_GET['success'])) echo "<p style='color:green;font-size:2em;'>Message sent!</p>"; ?> -->
+            <form action="send.php" method="POST">
+              <label for="username">Name</label><br>
+              <input type="text" name="name" id="username" required><br>
+              <label for="userphone">Phone</label><br>
+              <input type="tel" name="phone" id="userphone" pattern="[0-9]{10,12}"
+         title="Enter 10 to 12 digit phone number"
+         required><br>
+              <select name="service" id="#choose-service" required> 
+                <option value disabled selected>Choose Service</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Videography">Videography</option>
+                <option value="Video Editing">Video Editing</option>
+                <option value="Photo Editing">Photo Editing</option>
+                <option value="Content Creation">Content Creation</option>
+                <option value="Meta and Google Ads">Meta&sol;Google Ads</option>
+                <option value="Whatsapp and Email Marketing">Email &amp; Whatsapp Marketing</option>
+              </select><br>
+              <label for="location">Location</label><br>
+              <input type="text" name="location" id="location" required><br>
+              <label for="message">Your Message</label><br>
+              <textarea id="message" name="message" rows="8"
+                cols="55"></textarea>
+              <br>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="whatsapp">
+      <div>
+        <div class="whatsapp-box">
+          <h3>Chat With Us on WhatsApp</h3>
+          <p>Scan the QR code below or tap the button to start a conversation
+            directly with our team. We typically
+            reply within minutes.</p>
+          <div class="qr-wrap">
+            <canvas id="qrCanvas" width="160" height="160"></canvas>
+          </div>
+          <p style="font-size:0.8rem;color:var(--gray-400);">Scan to open
+            WhatsApp
+            chat with us</p>
+          <a
+            href="https://wa.me/917050721366?text=Hi!%20I%20found%20you%20online%20and%20would%20love%20to%20learn%20more%20about%20your%20digital%20marketing%20services."
+            class="wa-btn" target="_blank">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.855L.057 23.495l5.797-1.52A11.947 11.947 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.9 0-3.667-.507-5.19-1.393l-.373-.221-3.84 1.007 1.025-3.748-.243-.384A9.796 9.796 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.43-4.388 9.818-9.818 9.818z" />
+            </svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="tlm-small.png" alt="The Lift Media">
+          <p>We help businesses understand their users, amplify their presence,
+            and grow revenue through smart,
+            data-driven digital marketing.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">SEO</a></li>
+            <li><a href="#services">Social Media</a></li>
+            <li><a href="#services">Paid Ads</a></li>
+            <li><a href="#services">Content Marketing</a></li>
+            <li><a href="#contact">Email & WhatsApp</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Get In Touch</h5>
+          <ul>
+            <li><a href="tel:+917050721366">+91 70507 21366</a></li>
+            <li><a href="tel:+919905454906">+91 99054 54906</a></li>
+            <li><a
+                href="mailto:theliftmedia26@gmail.com">theliftmedia26@gmail.com</a></li>
+            <li><a href="https://wa.me/917050721366" target="_blank">WhatsApp
+                Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 The Lift Media. All rights reserved.</span>
+        <div class="footer-socials">
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/1CNGfduf4F/?mibextid=wwXIfr"
+              class="facebook" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/the_lift_media/"
+              class="instagram" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@TheLiftMedia" class="youtube"
+              target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      <!-- qr generator -->
+      <script src="main.js"></script>
+    </body>
+
+  </html>
